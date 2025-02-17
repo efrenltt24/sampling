@@ -67,8 +67,14 @@ def simulate_event(m):
 
   return p_wedding_infections, p_wedding_traces
 
-# Run the simulation 1000 times
-results = [simulate_event(m) for m in range(1000)]
+#I added the following seed to the code np.random.seed(123), 
+# this was inserted before the code could run the simulation 100 times. 
+# The reslts in the graphs are always the same and 
+# the values for infections and traces always remaing the same.
+
+# Run the simulation 100 times
+np.random.seed(123)
+results = [simulate_event(m) for m in range(100)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results
