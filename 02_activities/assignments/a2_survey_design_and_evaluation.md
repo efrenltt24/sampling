@@ -202,7 +202,7 @@ To address missing or inconsistent responses, the following methods were applied
 
     c.Where donor imputation could not be used, mean imputation among a pool of donors was used.
 
-11.	Sources of error
+11.Sources of error
 
     a.sampling error: Estimates vary between samples and from a full census. 
     More precise estimates of sampling variability were calculated using the bootstrap method. 
@@ -234,7 +234,7 @@ To address missing or inconsistent responses, the following methods were applied
 
 13.	Link to documentation and any additional sources used
     https://www.census.gov/programs-surveys/acs/methodology/sample-size-and-data-quality/response-rates-definitions.html
-    https://www.census.gov/programs-surveys/acs/methodology/sample-size-and-data-quality/response-rates-definitions.html
+    https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234#a1
 
 ```
 
